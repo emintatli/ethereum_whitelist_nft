@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bebas Neue'), url('https://fonts.cdnfonts.com/s/14902/BebasNeue Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bebas Neue'), url('https://fonts.cdnfonts.com/s/14902/BebasNeue.woff') format('woff');
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bebas Neue'), url('https://fonts.cdnfonts.com/s/14902/BebasNeue Book.woff') format('woff');
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Bebas Neue'), url('https://fonts.cdnfonts.com/s/14902/BebasNeue Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Bebas Neue'), url('https://fonts.cdnfonts.com/s/14902/BebasNeue Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Bebas Neue'), url('https://fonts.cdnfonts.com/s/14902/BebasNeue Bold.woff') format('woff');
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  *{
+      font-family: 'Bebas Neue', sans-serif;
+  }
+  body{
+      padding: 15% 0 !important;
+      background: #13131c !important;
+  }
+  .col-md-6{
+      padding: 20px;
+      background-color: #1c242d;
+      border-radius: 20px;
+  }
+  h2{
+      font-size: 40px;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 15px !important;
+      margin-top: 0px !important;
+  }
+  h4{
+      font-size: 25px;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 15px !important;
+      margin-top: 0px !important;
+  }
+  h3{
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+  }
+  .main-btn{
+      display: inline-block;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      box-sizing: border-box;
+      font-style: normal;
+      border-width: 0px;
+      border-style: solid;
+      text-transform: none;
+      transition: all 0.2s ease 0s;
+      background: rgb(255, 206, 0);
+      color: rgb(21, 34, 46);
+      border-color: rgb(255, 255, 255);
+      padding: 13px 40px !important;
+      line-height: 1;
+      font-size: 30px !important;
+      border-radius: 4px;
+      font-weight: bold !important;
+      margin-top: 0px !important;
+      height: 55px !important;
+  }
+  
+  
+  input,
+  textarea {
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    padding: 10px;
+  }
+  
+  input[type="button"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .input-group {
+      clear: both;
+      margin: 15px 0;
+      position: relative;
+      width: 100%;
+  }
+  
+  .input-group input[type='button'] {
+      background-color: #eeeeee;
+      min-width: 50px;
+      width: auto;
+      transition: all 300ms ease;
+      background: rgb(255, 206, 0);
+      color: rgb(21, 34, 46);
+      border-color: rgb(255, 255, 255);
+      height: 55px !important;
+      border-radius: 4px;
+      border: none;
+      font-size: 30px;
+  }
+  
+  .input-group .button-minus{
+      font-weight: bold;
+      padding: 0;
+      width: 38px;
+      position: relative;
+      margin-right: 5px;
+  }
+  .input-group .button-plus {
+      font-weight: bold;
+      padding: 0;
+      width: 38px;
+      position: relative;
+      margin-left: 5px;
+  }
+  
+  .input-group .quantity-field {
+      position: relative;
+      text-align: center;
+      width: 62px;
+      display: inline-block;
+      font-size: 30px;
+      resize: vertical;
+      background: rgb(255, 206, 0);
+      color: rgb(21, 34, 46);
+      border-color: rgb(255, 255, 255);
+      height: 55px !important;
+      border-radius: 4px;
+      border: none;
+      font-weight: bold;
+  }
+  .mint{
+      width: 173px;
+  }
+  
+  input[type="number"] {
+      -moz-appearance: textfield;
+      -webkit-appearance: none;
+  }
+  .sold{
+      padding: 50px 120px !important;
+      margin: 0 !important;
+      font-size: 35px;
+      line-height: 40px;
+  }
+
+  .disabled-button{
+      pointer-events: none;
+      opacity: 0.5;
+  }
+  .title-container{
+      display: flex;
+      align-items: center;
+  }
+  .inactive-title{
+      opacity: 0.2;
+      cursor:pointer;
+  }
+  .d-flex{
+      display: flex;
+  }
+  .mb-10{
+      margin-bottom: 10px;
+  }
+  .main-card{
+      background-color: white;
+      padding:30px;
+      position:absolute;
+      top:0;
+      width: 100%;
+  }
+.d-none{
+    display: none;
+}
+  @media screen and (max-width: 480px){
+      body{
+          padding: 50% 0 !important;
+          background: #13131c !important;
+      }
+      .sold{
+          padding: 100px 10px !important;
+          margin: 0 !important;
+          font-size: 35px;
+          line-height: 40px;
+      }
+  }
